@@ -44,7 +44,7 @@ def reset_cfg(cfg, args):
 
 	if args.resume:
 		cfg.RESUME = args.resume
-
+		
 	if args.seed:
 		cfg.SEED = args.seed
 
